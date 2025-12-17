@@ -1,0 +1,49 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose
+passlib[bcrypt]
+fpdf
+python-multipart
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose
+passlib[bcrypt]
+fpdf
+python-multipart
+# Dépendances principales pour le projet d'analyse prédictive
+# Système d'optimisation de gestion des stocks - Répartition Pharmaceutique
+
+# Framework de visualisation
+streamlit
+
+# Modèle de prédiction
+prophet
+cmdstanpy
+
+# Manipulation et analyse de données
+pandas
+numpy
+
+# Visualisation
+matplotlib
+plotly
+seaborn
+
+# Utilitaires
+python-dateutil
+pytz
+
+# Configuration
+pyyaml
+
+# Dépendances supplémentaires pour Prophet
+holidays
+lunardate
+convertdate
+korean-lunar-calendar
+tqdm
+

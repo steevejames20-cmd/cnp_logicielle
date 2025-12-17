@@ -1,0 +1,41 @@
+# Configuration du projet d'analyse prédictive
+# Système d'optimisation de gestion des stocks
+
+# Paramètres de génération de données
+data_generation:
+  start_date: "2022-01-01"
+  end_date: "2024-01-01"
+  num_products: 10
+  output_raw: "data/raw/sales_data.csv"
+  output_processed: "data/processed/sales_aggregated.csv"
+
+# Paramètres du modèle Prophet
+model:
+  forecast_days: 30
+  yearly_seasonality: true
+  weekly_seasonality: true
+  daily_seasonality: false
+  seasonality_mode: "multiplicative"
+  changepoint_prior_scale: 0.05
+  interval_width: 0.95
+  models_directory: "models"
+
+# Paramètres d'optimisation des stocks
+inventory:
+  default_lead_time_days: 7
+  default_safety_factor: 1.5
+  reorder_margin_percent: 20
+
+# Paramètres de l'application Streamlit
+app:
+  page_title: "Analyse Prédictive des Ventes - Répartition Pharmaceutique"
+  page_icon: "💊"
+  layout: "wide"
+
+
+
+
+
+
+
+
